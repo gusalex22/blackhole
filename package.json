@@ -1,0 +1,26 @@
+{
+  "name": "blackhole",
+  "version": "1.0.0",
+  "description": "Telechargement de données sur un site web",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusalex22/blackhole.git"
+  },
+  "keywords": [
+    "blakhole",
+    "formation"
+  ],
+  "author": "Alex Gus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusalex22/blackhole/issues"
+  },
+  "homepage": "https://github.com/gusalex22/blackhole#readme",
+  "dependencies": {
+    "async-gusalex": "^1.0.0"
+  }
+}

@@ -1,6 +1,7 @@
 
 var dowloadImage = require("./libs/module.download.js"),
-    asynch = require("./libs/module.async.js"),
+    //asynch = require("./libs/module.async.js"),
+    async = require("async-gusalex"),
     config = require("./config.json");
 
 var callbackFinal = function (error, result) {
@@ -11,4 +12,4 @@ var callbackFinal = function (error, result) {
     }
 };
 
-asynch.map(config.images, dowloadImage, callbackFinal);
+async.map(config.images, dowloadImage, callbackFinal);
